@@ -21,3 +21,11 @@ function addToGuestScore(points){
     guest_scoreEl.textContent = guest_score
 
 }
+
+function resetGame(){
+    home_socre = 0
+    guest_score = 0
+
+    home_scoreEl.textContent = home_socre
+    guest_scoreEl.textContent = guest_score
+}

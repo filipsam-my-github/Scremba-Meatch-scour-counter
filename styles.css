@@ -6,3 +6,14 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
+
+.metaGameSettings {
+    color: gray;
+    height: 400px;
+    width: 10000px;
+}
+
+.newGame {
+    margin: 100px;
+}

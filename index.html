@@ -8,19 +8,24 @@
                 <h3>HOME</h3>
                 <h1 class="score" id="home_score">0</h1>
                 <div class="buttons">
-                    <button onclick="addToHometScore(1)" class="addScorebtn"></button>
-                    <button onclick="addToHometScore(2)" class="addScorebtn"></button>
-                    <button onclick="addToHometScore(3)" class="addScorebtn"></button>
+                    <button onclick="addToHometScore(1)" class="addScorebtn"> +1</button>
+                    <button onclick="addToHometScore(2)" class="addScorebtn"> +2</button>
+                    <button onclick="addToHometScore(3)" class="addScorebtn"> +3</button>
                 </div>
             </div>
+            
             <div id = "guest">
                 <h3>GUEST</h3>
                 <h1 class="score" id="guest_score">0</h1>
                 <div class="buttons">
-                    <button onclick="addToGuestScore(1)" class="addScorebtn"></button>
-                    <button onclick="addToGuestScore(2)" class="addScorebtn"></button>
-                    <button onclick="addToGuestScore(3)" class="addScorebtn"></button>
+                    <button onclick="addToGuestScore(1)" class="addScorebtn"> +1</button>
+                    <button onclick="addToGuestScore(2)" class="addScorebtn"> +2</button>
+                    <button onclick="addToGuestScore(3)" class="addScorebtn"> +3</button>
                 </div>
+            </div>
+
+            <div class="metaGameSettings">
+                <button onclick="resetGame()">new game</button>
             </div>
         </div>
         <script src="counter_logic.js"></script>
